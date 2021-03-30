@@ -14,7 +14,7 @@ Nightmare scripted is a wrapper around Nightmare by *segmentio* which allows JSO
 
 ### Including/Initialization
 
-Nightmare must be initialized before use. This can be done on import or as a function call.
+Nightmare must be initialized before use. This can be done on import or as a function call. *see Nightmare documentation for options*
 
 ```javascript
 const nightmareScripted = require('nightmare-scripted')({electronPath: require('./node_modules/electron'),show: false});
@@ -44,45 +44,45 @@ console.log(res);
 
 Most nightmare chainable functions are available.
 
-goto
-useragent
-authentication
-end
-halt
-back
-forward
-refresh
-click
-mousedown
-mouseup
-mouseover
-mouseout
-type
-insert
-check
-uncheck
-select
-scrollTo
-viewPort
-inject
-evaluate
-wait
-waitfn
-header
-exists
-visible
-on
-once
-removeListener
-screenshot
-html
-pdf
-title
-url
-path
-cookies.get
-cookies.set
-cookies.clear
+- goto
+- useragent
+- authentication
+- end
+- halt
+- back
+- forward
+- refresh
+- click
+- mousedown
+- mouseup
+- mouseover
+- mouseout
+- type
+- insert
+- check
+- uncheck
+- select
+- scrollTo
+- viewPort
+- inject
+- evaluate
+- wait
+- waitfn
+- header
+- exists
+- visible
+- on
+- once
+- removeListener
+- screenshot
+- html
+- pdf
+- title
+- url
+- path
+- cookies.get
+- cookies.set
+- cookies.clear
 
 #### end
 
@@ -90,7 +90,7 @@ Passing ``end`` is optional at the end of your script. It will be called automat
 
 #### wait and waitfn
 
-For code simplicity ``wait(fn[, arg1, arg2,...]) has been replaced with waitfn(fn[, arg1, arg2,...]);
+For code simplicity ``wait(fn[, arg1, arg2,...])`` has been replaced with ``waitfn(fn[, arg1, arg2,...])``
 
 ``wait`` still accepts a ms integer or a string selector.
 
