@@ -1,0 +1,27 @@
+{
+  "name": "nightmare-scripted",
+  "version": "0.1.0",
+  "description": "Run portable scripts through Nightmare",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottsloane/nightmare-scripted.git"
+  },
+  "keywords": [
+    "Nightmare",
+    "scripting",
+    "automation"
+  ],
+  "author": "Scott Sloane",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/scottsloane/nightmare-scripted/issues"
+  },
+  "homepage": "https://github.com/scottsloane/nightmare-scripted#readme",
+  "dependencies": {
+    "nightmare": "^3.0.2"
+  }
+}
